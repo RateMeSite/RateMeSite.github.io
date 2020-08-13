@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Allows You Too Comment On People" />
+    <!--Allows Google Crawlers To Find Site Better-->
+    <meta name="robots" content="index,follow" />
+
+    <link rel="stylesheet" href="./css/skeleton.css" />
+    <link rel="stylesheet" href="./css/skeleton.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Main</title>
+  </head>
+  <body>
+    <div class="site">
+      <header class="sitehead">
+        <h1>Rate Me!</h1>
+      </header>
+
+      <div class="commenting">
+        <h2>Add A Comment!</h2>
+        <form class="commetingForm">
+        <div class="row">
+          <div class="six columns">
+            <label for="firstName">Your First Name:</label>
+            <input
+              class="u-full-width"
+              type="text"
+              placeholder="john"
+              id="firstName"
+              name="firstName"
+            />
+          </div>
+          <div class="six columns">
+            <label for="lastName">Your Last Name:</label>
+            <input
+              class="u-full-width"
+              type="text"
+              placeholder="doe"
+              id="lastName"
+              name="lastName"
+            />
+          </div>
+        </div>
+
+        <label for="comment">Message</label>
+        <textarea
+          class="u-full-width"
+          placeholder="John Doe Is A Great Guy!"
+          id="comment"
+          name="comment"
+        ></textarea>
+
+        <button class="button-primary">Post!</button>
+      </div>
+    </form>
+    </div>
+    <div class="userList">
+
+    </div>
+  </body>
+  <script src="./client.js"></script>
+</html>

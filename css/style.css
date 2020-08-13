@@ -1,0 +1,10 @@
+.site {
+  display: grid;
+  grid-template-rows: 0.5fr 1.5fr 2fr;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
